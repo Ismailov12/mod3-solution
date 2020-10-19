@@ -1,0 +1,43 @@
+
+
+        /*  HEADERR   */
+
+.navbar-brand {
+    margin: 5px auto ;
+    font-size: 32px;
+}
+
+        /*  COLUMNS */
+section {
+    padding: 10px
+}
+.pull-left {
+    position: absolute;
+
+}
+.navbar-right {
+    vertical-align: middle;
+}
+
+section > .columns {
+    margin: 10px auto;
+    background-color: grey;
+    color: whitesmoke;
+    text-align: center;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    section .columns {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-right {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+
